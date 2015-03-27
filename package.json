@@ -1,0 +1,21 @@
+{
+  "name": "ssr-vs-swsr",
+  "version": "0.0.0",
+  "description": "Server-side rendering vs Swerivce-Worker-side rendering",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js www/sw.js",
+    "prestart": "npm run lint",
+    "start": "node index.js"
+  },
+  "author": "Kuu Miyazaki",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "handlebars": "^3.0.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^0.17.1"
+  }
+}
